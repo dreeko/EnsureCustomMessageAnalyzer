@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Pack
-      run: dotnet -c Release
+      run: dotnet pack -c Release
